@@ -93,13 +93,3 @@ Modo oscuro/claro con persistencia mediante `localStorage`. La preferencia del u
 
 ---
 
-## Datos académicos
-
-| Campo | Detalle |
-|---|---|
-| Universidad | Universidad Técnica Nacional (UTN) |
-| Curso | Programación en Ambiente Web I |
-| Código | ISW-521 |
-| Laboratorio | #1 — Landing Page Responsiva |
-| Porcentaje | 15% de la nota final |
-| Modalidad | Individual |
