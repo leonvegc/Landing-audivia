@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUDIVIA — Audiología Karol Vega</title>
+
+  <!-- Fuentes de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAV ==================== -->
+  <header>
+    <nav role="navigation" aria-label="Navegación principal">
+
+      <!-- Logo textual -->
+      <div class="nav-logo">
+        <span class="logo-texto">AUDIVIA</span>
+        <span class="logo-subtexto">Audiología Karol Vega</span>
+      </div>
+
+      <!-- Links de navegación -->
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <!-- Botón toggle modo oscuro/claro -->
+      <button id="btn-tema" aria-label="Activar modo oscuro">🌙</button>
+
+    </nav>
+  </header>
+
+  <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+  <main role="main">
+
+    <!-- ---- SECCIÓN 1: HERO / INICIO ---- -->
+    <section id="inicio" class="hero">
+
+      <!-- Texto del hero (izquierda) -->
+      <div class="hero-texto">
+        <h1>Escucha mejor, vive mejor</h1>
+        <p>Clínica especializada en audiología con atención personalizada y tecnología de punta</p>
+        <a href="https://wa.me/50686154823" class="btn-cta">Agendar cita — 8615-4823</a>
+      </div>
+
+      <!-- Fotografía principal de la clínica (derecha) -->
+      <img src="img/karol-portada.jpg" alt="Audióloga Karol Vega de pie sosteniendo un otoscopio" class="hero-imagen">
+
+    </section>
+
+    <!-- ---- SECCIÓN 2: SERVICIOS ---- -->
+    <section id="servicios" class="servicios">
+      <h2>Nuestros Servicios</h2>
+
+      <!-- Grid de tarjetas: 3 columnas en desktop, 1 en móvil -->
+      <div class="servicios-grid">
+
+        <article class="tarjeta">
+          <img src="img/karol-examen.jpg" alt="Audióloga Karol Vega realizando una evaluación auditiva a un paciente" class="tarjeta-imagen">
+          <h3>Evaluación Auditiva</h3>
+          <p>Diagnóstico completo de tu capacidad auditiva</p>
+        </article>
+
+        <article class="tarjeta">
+          <img src="img/equipos-audiologia.jpg" alt="Equipos de audiología: otoscopio y audífono sobre un escritorio" class="tarjeta-imagen">
+          <h3>Audífonos de Alta Tecnología</h3>
+          <p>Reducción de ruido, conectividad celular y ajustes personalizados</p>
+        </article>
+
+        <article class="tarjeta">
+          <img src="img/karol-consulta.jpg" alt="Audióloga entregando resultados a un paciente durante una consulta" class="tarjeta-imagen">
+          <h3>Limpieza de Oídos</h3>
+          <p>Eliminación segura de cerumen para mejorar tu audición</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ---- SECCIÓN 3: NOSOTROS ---- -->
+    <section id="nosotros" class="nosotros">
+
+      <!-- Contenedor flexbox: bloque principal izquierda, aside derecha -->
+      <div class="nosotros-contenedor">
+
+        <!-- Bloque principal -->
+        <section class="nosotros-principal">
+          <!-- Foto retrato a la izquierda, texto a la derecha -->
+          <img src="img/karol-escritorio.jpg" alt="Audióloga Karol Vega en su consultorio trabajando en una laptop" class="nosotros-foto">
+          <div class="nosotros-texto">
+            <h2>¿Quiénes somos?</h2>
+            <p>AUDIVIA es una clínica de audiología costarricense fundada con el propósito de
+            brindar atención auditiva especializada, cálida y accesible. Nuestro equipo está
+            liderado por la Audióloga Karol Vega, con amplia experiencia en diagnóstico y
+            rehabilitación auditiva. Contamos con tecnología de punta y un ambiente diseñado
+            para que cada paciente se sienta cómodo y bien atendido.</p>
+          </div>
+        </section>
+
+        <!-- Dato destacado lateral -->
+        <aside class="nosotros-aside">
+          <h3>¿Sabías que?</h3>
+          <p>1 de cada 5 personas en Costa Rica tiene algún grado de pérdida auditiva.
+          La detección temprana marca la diferencia.</p>
+          <a href="https://wa.me/50686154823" class="btn-cta">Agenda tu revisión</a>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ---- SECCIÓN 4: CONTACTO ---- -->
+    <section id="contacto" class="contacto">
+      <h2>Contáctenos</h2>
+
+      <!-- Solo datos de contacto, sin formulario -->
+      <ul class="contacto-lista">
+        <li>📱 <strong>WhatsApp:</strong> 8615-4823</li>
+        <li>📍 <strong>Dirección:</strong> Frente al Hospital San Carlos, Edificio Amore,
+          segunda planta, consultorio 3</li>
+        <li>📸 <strong>Instagram:</strong> @audiviacr</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <p>© 2025 AUDIVIA — Audiología Karol Vega. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
